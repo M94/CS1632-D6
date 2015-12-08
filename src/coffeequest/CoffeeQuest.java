@@ -160,10 +160,10 @@ public class CoffeeQuest {
 	public static Room[] createRooms() {
 		Room[] rooms = {
 			new Room("Austrian", "Dusty chandelier", "Magenta", null, Item.CREAM),
-			new Room("Chinese", "Dusty wok", "Beige", "Massive", 0),
-			new Room("German", "DVD copy of Grown Ups 2™ signed by Chancellor Angela Merkel", "Dead", "Smart", Item.COFFEE),
-			new Room("French", "Fiery candle", "Vivacious", "Slim", 0),
-			new Room("Norwegian", "Fjord", "Black", "Metal", 0),
+			new Room("Chinese", "Dusty wok", "Beige", "Massive", Item.NOTHING),
+			new Room("German", "DVD copy of Grown Ups 2 signed by Chancellor Angela Merkel", "Dead", "Smart", Item.COFFEE),
+			new Room("French", "Fiery candle", "Vivacious", "Slim", Item.NOTHING),
+			new Room("Norwegian", "Fjord", "Black", "Metal", Item.NOTHING),
 			new Room("Polish", "Delicious bowl of pierogies", null, "Minimalist", Item.SUGAR),
 		};
 		return rooms;
