@@ -1,11 +1,11 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 /**
  * Austin Choi
  * CS 1632 Deliverable 6
  */
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class CoffeeQuest {
 	

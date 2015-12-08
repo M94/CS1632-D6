@@ -23,8 +23,19 @@ public class Room {
 		this.item = item;
 	}
 	
+	public Room(String door_north, String door_south, int item) {
+		this("Default", "Default furnishing", door_north, door_south, item);
+	}
+	
+	/**
+	 * An empty, default room
+	 */
+	public Room() {
+		this(null, null, Item.NOTHING);
+	}
+	
 	public boolean hasItem() {
-		return item > 0;
+		return (item > Item.NOTHING && item < Item.N);
 	}
 	
 	public boolean hasNorth() {
