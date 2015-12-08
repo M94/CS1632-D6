@@ -2,6 +2,9 @@ package coffeequest;
 /**
  * Austin Choi
  * CS 1632 Deliverable 6
+ * Coffee Maker Quest 412
+ * In this game, the player must collect three items in a series of rooms to concoct a winning beverage.
+ * The program is designed to be test-friendly.
  */
 
 import java.io.BufferedReader;
